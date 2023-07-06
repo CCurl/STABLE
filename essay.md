@@ -1,7 +1,8 @@
-```⇐ STABLE-INDEX	⇒ tutorial   ⇒ glossar   essay   ⇒ cook book  
-STABLE - ESSAY
+# STABLE - ESSAY
 an extreme small an fast FORTH-VM
+
 Stable is a very different language. It might be closer to FORTH but has very unique attributes not found there.
+
 STABLE looks a bit alien to more traditional developer but one hour should be enough to get used to it (see the ⇒ tutorial).
 Did you ever had the wish to change the compiler or syntax of your system.
 Had you ever had the wish to be independent of your compiler distributor.
@@ -24,7 +25,7 @@ So it is able to run in full speed of the CPU. Because STABLE is that small the 
 And now think of the area of embedded devices. Where CPU power and memory is very limited.
 STABLE could be its own operating system, running on bare metal. In which programming language can you write a fibonacci
 programm within 13 Bytes) ?
-
+```
 usage: stable fib.txt 24
 1	1	2	3	5	8	13	21
 34	55	89	144	233	377	610	987
@@ -76,7 +77,7 @@ a     ( 2 3)      select register a (contains counter)
 -     ( 2 3)      decrement register a
 ;     ( 2 3 a)    get the content of register a
 ]     ( 2 3)      loop to [ until a is 0 (false)
-
+```
 And STABLE could be interactive, so one can develop, test and maintain applications on the same embedded device.
 No need for a large computer which compiles down the application and than you have to download the code into the board -no,
 you are directly connected to the board and get the feedback immediately. The PC plays the role of a dumb terminal.
@@ -85,4 +86,3 @@ You can implement STABLE in any language you want, even Assembly or COBOL and yo
 We provide a free reference system written in C for linux, Mac and Windows (see ⇒ downloads).
 
 ENJOY STABLE!
-```
