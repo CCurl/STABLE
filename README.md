@@ -1,6 +1,8 @@
 # STABLE - an extremely small and fast FORTH-VM
 This is a Github copy of Sandor Schneider's STABLE
 
+It was copied from here: https://w3group.de/stable.html
+
 Many thanks to Sandor Schneider who gave STABLE to public domain.
 
 Stable (STAck Bytecode Language & Engine) is an extreme minimal but useful stack oriented virtual machine, currently written in C (200 lines of extensively commented C code. The original comes in under 50 lines of C code). The machine language consists only of printable letters which make it simple hackable with an editor. The goal of this engine is to be human hackable, simple and fast. So there are no complicated address calculations (for branch and jump addresses) and an easy to use instruction set. (43 instructions, 26 registers, 26 user defineable functions)
