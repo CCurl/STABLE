@@ -1,8 +1,5 @@
-# STABLE
+# STABLE - an extreme small an fast FORTH-VM
 This is a Github copy of Sandor Schneider's STABLE
-
-#STABLE
-an extreme small an fast FORTH-VM
 
 Many thanks to Sandor Schneider who gave stable to public domain.
 
